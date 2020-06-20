@@ -1,0 +1,20 @@
+PODS:
+  - RZColorfulSwift (0.1.2)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - RZColorfulSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - RZColorfulSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  RZColorfulSwift: de1efb1f468b6f00f4225cb6242bfa2c5137b347
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: bca2ce31517daee93b6c29ab254d0b842004cd5b
+
+COCOAPODS: 1.9.3

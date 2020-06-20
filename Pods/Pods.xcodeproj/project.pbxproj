@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069FB55843E04647F9E648392783A914 /* RZTapActionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068EAAF375CB109197562DA02F41EF6 /* RZTapActionHelper.swift */; };
+		095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B031E487CE60E0FFAC1C3FA5404ABC /* ConstraintLayoutSupport.swift */; };
+		0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7298CC818ED2BDB5CF11CA873726B20A /* Typealiases.swift */; };
+		0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FEB8B4F04318A8C1DA9336348CAD27 /* ConstraintMakerFinalizable.swift */; };
+		14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFACBDB58B97E1B72EBF6C3E3ADCF598 /* ConstraintPriorityTarget.swift */; };
+		276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C305D2C1BE39E8443A18FF1C793F3F82 /* ConstraintLayoutGuideDSL.swift */; };
+		2829EB1218FD47561BDC8AA5F45D4277 /* RZImageAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87720C23A6C3D4976B6877AB7974598F /* RZImageAttribute.swift */; };
+		28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07180A800BFDFA6C737DB560D80C4FE2 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D50A9503797E0E8054AD92144E48E2 /* RZColorfulSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 654E1BAF61D24D39B46259EEA120DFDB /* RZColorfulSwift-dummy.m */; };
+		35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB51CA03C5F54BF753A75AD7BC6AE4 /* ConstraintMakerRelatable.swift */; };
+		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FAE641AFD8B477D02BD7C2F2B62B52 /* ConstraintMakerEditable.swift */; };
+		499C4FEA3ADD10AF1ADC0BC0C0EC943B /* NSAttributedStringRZColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B3F62240E1CA7C4F8F542253390A8 /* NSAttributedStringRZColorful.swift */; };
+		53E06724A89556F80B0D222B558DDAD2 /* RZShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B43647D2E096E116F03A9A7D8A08DFA /* RZShadowStyle.swift */; };
+		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E540B6555AF3E0AD96CEB7B1E4D428F /* ConstraintInsets.swift */; };
+		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C805128CD0703018F349718346A69A7 /* ConstraintView.swift */; };
+		5A681641D3089951E89AC44D6A1246D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5AA11DC53B26CC280C7C5E37B8CEF /* ConstraintMaker.swift */; };
+		5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1CBACE525112BDEAAFE5E8809FB31 /* SnapKit-dummy.m */; };
+		67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68987B626604555F22870560989D4BD8 /* RZTextAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0900A8CD7F8C0BC57D9E577542768 /* RZTextAttribute.swift */; };
+		6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4DAC6C88BDA405F067591625F81C9 /* ConstraintDSL.swift */; };
+		72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FDFA324DDEDA68D5742F6ED2ABFE9 /* ConstraintOffsetTarget.swift */; };
+		75670C5B51B14441FB4F9F266E439EB8 /* RZColorfulSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 196DB8D9A665104C55BD801318DA10B0 /* RZColorfulSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D161662E276F4ACE4854BEC6EEFDE /* ConstraintView+Extensions.swift */; };
+		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC918A8DB4A339168BE76EA509C96EFD /* LayoutConstraintItem.swift */; };
+		8791B441FA36A4F3B3199BCDBF0C1836 /* RZParagraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F242022D31E0568A7FDE4B4FF5C4B70 /* RZParagraphStyle.swift */; };
+		87B06CAB51E90EF83A0A217F2ACFAC85 /* RZColorfulConferrer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DD8CD32464CA7502817F6104AA2F0 /* RZColorfulConferrer.swift */; };
+		8838BFCB417AAE61479AA78774151B24 /* UITextFieldRZColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A962CF1CF2D11722563E85D019E2C8 /* UITextFieldRZColorful.swift */; };
+		8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB788EB94EC465102429967EF58791 /* ConstraintMakerPriortizable.swift */; };
+		908C87C9334F5415CED16AF8BD3B4793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4596BCD8AA930BAFDECBDD474F0D83 /* Debugging.swift */; };
+		98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90998F4AB473A9B3D6C657218F39ABE /* UILayoutSupport+Extensions.swift */; };
+		9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C80576E7F8ED3DCD974A9A0EFAAD /* ConstraintDescription.swift */; };
+		9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C5D8083118E8B55A198F6743E33D03 /* ConstraintConstantTarget.swift */; };
+		A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D7CA0F1721BFF18FE2115A4F8DECE /* ConstraintConfig.swift */; };
+		A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6640D29E10AF554D93FA7C59EC43BD52 /* ConstraintMultiplierTarget.swift */; };
+		A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E76399E2B0190CEA6C340F412D0171 /* ConstraintAttributes.swift */; };
+		A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CEE38E17534CBFE7842A0A860668E1 /* ConstraintPriority.swift */; };
+		AB29EC59B4BFDB908670B420A566010A /* Pods-RZFoldLabelSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCEB2D123F9D6F5C5CC8040B7646AD4 /* Pods-RZFoldLabelSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C4F6BE2C45FBC5AC1FDC60DF5D5AC /* LayoutConstraint.swift */; };
+		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B3B732D8E7C321BBDF078F3E9C5DC3 /* ConstraintRelation.swift */; };
+		C4D0642AC8E9F98BA4536C2FB15CD396 /* Pods-RZFoldLabelSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD237232E6DA5DB8DF6FA57817277EAE /* Pods-RZFoldLabelSwift-dummy.m */; };
+		C56301C725FAB996414B1DA241191229 /* RZColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207DC308D21EA1B29A7175D3F11A12C /* RZColorful.swift */; };
+		C9DA864E9B04E648A58768396C5FC960 /* UILabelRZColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150D7B93D82E23C17BAFF4F1EA5EE2E /* UILabelRZColorful.swift */; };
+		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952BAB3AD7A560AE9B9F1C304D6AABD /* ConstraintItem.swift */; };
+		CE79339E5D178F5BF97666E52BB98E2E /* UITextViewRZColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F2EE8676F101DA1EE13CC3871E6C71 /* UITextViewRZColorful.swift */; };
+		DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507565B2B53E1DD0D43F14E7EA98174 /* ConstraintLayoutGuide+Extensions.swift */; };
+		DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2782ED1EA7D3C27AA14A7DC16A898452 /* Constraint.swift */; };
+		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790391EFB8C1188AB56914AEF0DA104E /* ConstraintViewDSL.swift */; };
+		E1AAC889D8D253EF20517814AD68A510 /* RZImageUrlAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A14AE4D49214722F5D4BF387380F60C /* RZImageUrlAttribute.swift */; };
+		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF3A9716CDF221658428C971503FEB /* ConstraintRelatableTarget.swift */; };
+		F199879681B48BFEF07173B2292AA1EB /* RZHtmlAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724407B26E3BFE4AD7CD51A8B89FDFD /* RZHtmlAttribute.swift */; };
+		F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E67DBDDD9E6A6E9821DD3C128EBBC3 /* ConstraintInsetTarget.swift */; };
+		F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1F029F59EE8A9E7CA3B67AE37D2D5 /* ConstraintLayoutSupportDSL.swift */; };
+		FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3CB74D00BD6BBEB86ED53AF17DC74A /* ConstraintMakerExtendable.swift */; };
+		FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6B2A4D85AB1525AEDF442FA50C186 /* ConstraintLayoutGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C991F8AFBF8ECDC30DD6E88C06AE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		8B9C8AD9DA8B2007E3078C73558545ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C6E9B7582B17D114306D26755D8FFA;
+			remoteInfo = RZColorfulSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0150D7B93D82E23C17BAFF4F1EA5EE2E /* UILabelRZColorful.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelRZColorful.swift; path = RZColorfulSwift/RZColorfulSwift/Core/UILabelRZColorful.swift; sourceTree = "<group>"; };
+		0278EBF5A665766C1E8D80AD04853DFB /* Pods-RZFoldLabelSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RZFoldLabelSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02A962CF1CF2D11722563E85D019E2C8 /* UITextFieldRZColorful.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldRZColorful.swift; path = RZColorfulSwift/RZColorfulSwift/Core/UITextFieldRZColorful.swift; sourceTree = "<group>"; };
+		07180A800BFDFA6C737DB560D80C4FE2 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		07E67DBDDD9E6A6E9821DD3C128EBBC3 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		08CEE38E17534CBFE7842A0A860668E1 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		0B2C525B018E966C7858A450BE33B6AE /* RZColorfulSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZColorfulSwift-prefix.pch"; sourceTree = "<group>"; };
+		0E540B6555AF3E0AD96CEB7B1E4D428F /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		1507565B2B53E1DD0D43F14E7EA98174 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		15862FD89C2FA9EDADAE4E98933B6EA2 /* Pods-RZFoldLabelSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFoldLabelSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		196DB8D9A665104C55BD801318DA10B0 /* RZColorfulSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZColorfulSwift-umbrella.h"; sourceTree = "<group>"; };
+		1B43647D2E096E116F03A9A7D8A08DFA /* RZShadowStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZShadowStyle.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZShadowStyle.swift; sourceTree = "<group>"; };
+		1F242022D31E0568A7FDE4B4FF5C4B70 /* RZParagraphStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZParagraphStyle.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZParagraphStyle.swift; sourceTree = "<group>"; };
+		2782ED1EA7D3C27AA14A7DC16A898452 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2A87A4A605057E3641DFB6C7B9C60E08 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		3068EAAF375CB109197562DA02F41EF6 /* RZTapActionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZTapActionHelper.swift; path = RZColorfulSwift/RZColorfulSwift/Core/RZTapActionHelper.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33C5D8083118E8B55A198F6743E33D03 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		3BCEA90978813EEB88F39FC9874E97D1 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		3D0FDFA324DDEDA68D5742F6ED2ABFE9 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		426A239D4A53ED82A5E2A1ECD405CE33 /* Pods-RZFoldLabelSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFoldLabelSwift.release.xcconfig"; sourceTree = "<group>"; };
+		49E76399E2B0190CEA6C340F412D0171 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		4A3CB74D00BD6BBEB86ED53AF17DC74A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		4A4596BCD8AA930BAFDECBDD474F0D83 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		4D0D66D7111CDD880A5899DEA56ADA0E /* RZColorfulSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RZColorfulSwift.modulemap; sourceTree = "<group>"; };
+		52FB51CA03C5F54BF753A75AD7BC6AE4 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		55BF3A9716CDF221658428C971503FEB /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		5724407B26E3BFE4AD7CD51A8B89FDFD /* RZHtmlAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZHtmlAttribute.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZHtmlAttribute.swift; sourceTree = "<group>"; };
+		59D6B2A4D85AB1525AEDF442FA50C186 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		62B3B732D8E7C321BBDF078F3E9C5DC3 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		654E1BAF61D24D39B46259EEA120DFDB /* RZColorfulSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZColorfulSwift-dummy.m"; sourceTree = "<group>"; };
+		6640D29E10AF554D93FA7C59EC43BD52 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		6A14AE4D49214722F5D4BF387380F60C /* RZImageUrlAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZImageUrlAttribute.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZImageUrlAttribute.swift; sourceTree = "<group>"; };
+		6E80B4E49BE1CE3EB50F0EE52A078068 /* RZColorfulSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RZColorfulSwift.framework; path = RZColorfulSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298CC818ED2BDB5CF11CA873726B20A /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		76E1F029F59EE8A9E7CA3B67AE37D2D5 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		790391EFB8C1188AB56914AEF0DA104E /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		79E1CBACE525112BDEAAFE5E8809FB31 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		7C805128CD0703018F349718346A69A7 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		83C368DE6F3D6EF23AFDFE23AF41C02F /* Pods-RZFoldLabelSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RZFoldLabelSwift-frameworks.sh"; sourceTree = "<group>"; };
+		84FA68E91B256274A384BC85D18BC1EF /* Pods-RZFoldLabelSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RZFoldLabelSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		87720C23A6C3D4976B6877AB7974598F /* RZImageAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZImageAttribute.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZImageAttribute.swift; sourceTree = "<group>"; };
+		88A5DD847FBE1EC89A8963707CFE6C09 /* Pods_RZFoldLabelSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RZFoldLabelSwift.framework; path = "Pods-RZFoldLabelSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7204D75119ABF9D707F42D5CA25ABD /* Pods-RZFoldLabelSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RZFoldLabelSwift.modulemap"; sourceTree = "<group>"; };
+		8FCEB2D123F9D6F5C5CC8040B7646AD4 /* Pods-RZFoldLabelSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RZFoldLabelSwift-umbrella.h"; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B031E487CE60E0FFAC1C3FA5404ABC /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E5AA11DC53B26CC280C7C5E37B8CEF /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		A90998F4AB473A9B3D6C657218F39ABE /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		AB1B3F62240E1CA7C4F8F542253390A8 /* NSAttributedStringRZColorful.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringRZColorful.swift; path = RZColorfulSwift/RZColorfulSwift/Core/NSAttributedStringRZColorful.swift; sourceTree = "<group>"; };
+		AC918A8DB4A339168BE76EA509C96EFD /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		AD237232E6DA5DB8DF6FA57817277EAE /* Pods-RZFoldLabelSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RZFoldLabelSwift-dummy.m"; sourceTree = "<group>"; };
+		AD2EFF9D269D16F5915FACC2C195C854 /* Pods-RZFoldLabelSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RZFoldLabelSwift-Info.plist"; sourceTree = "<group>"; };
+		AE6890EB8833E8CCC5C6C952CD5DB4D0 /* RZColorfulSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RZColorfulSwift-Info.plist"; sourceTree = "<group>"; };
+		B56209C17842CE0E3EE59F3017FB2BBD /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		B8FEB8B4F04318A8C1DA9336348CAD27 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		BCEB788EB94EC465102429967EF58791 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		BFACBDB58B97E1B72EBF6C3E3ADCF598 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		C305D2C1BE39E8443A18FF1C793F3F82 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		C784C80576E7F8ED3DCD974A9A0EFAAD /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		CA6D7CA0F1721BFF18FE2115A4F8DECE /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		D207DC308D21EA1B29A7175D3F11A12C /* RZColorful.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZColorful.swift; path = RZColorfulSwift/RZColorfulSwift/Core/RZColorful.swift; sourceTree = "<group>"; };
+		D2E4DAC6C88BDA405F067591625F81C9 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		DAF23DFBE7BFDD0A29653F5A2125A0D7 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		DEA0900A8CD7F8C0BC57D9E577542768 /* RZTextAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZTextAttribute.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZTextAttribute.swift; sourceTree = "<group>"; };
+		E11C4F6BE2C45FBC5AC1FDC60DF5D5AC /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		E7FAE641AFD8B477D02BD7C2F2B62B52 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		E835965DA3DC5DDF9043A221AB6DE092 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		E9F2EE8676F101DA1EE13CC3871E6C71 /* UITextViewRZColorful.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewRZColorful.swift; path = RZColorfulSwift/RZColorfulSwift/Core/UITextViewRZColorful.swift; sourceTree = "<group>"; };
+		EF5D161662E276F4ACE4854BEC6EEFDE /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		F019AB95B54E7945FE5AAD397C08AEE6 /* RZColorfulSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZColorfulSwift.debug.xcconfig; sourceTree = "<group>"; };
+		F4D5E1FA06A0004D162FB3C451963B86 /* RZColorfulSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZColorfulSwift.release.xcconfig; sourceTree = "<group>"; };
+		F952BAB3AD7A560AE9B9F1C304D6AABD /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		FC6DD8CD32464CA7502817F6104AA2F0 /* RZColorfulConferrer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RZColorfulConferrer.swift; path = RZColorfulSwift/RZColorfulSwift/AttributeCore/RZColorfulConferrer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A173863657894A01CB54BA862DDBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE115A42BD9472525F6E1962957E4F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908C87C9334F5415CED16AF8BD3B4793 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F61B42A1441BECCC7C68C7D808DD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A681641D3089951E89AC44D6A1246D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B447A6207B8BDF6366D0EFA7069630 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2782ED1EA7D3C27AA14A7DC16A898452 /* Constraint.swift */,
+				49E76399E2B0190CEA6C340F412D0171 /* ConstraintAttributes.swift */,
+				CA6D7CA0F1721BFF18FE2115A4F8DECE /* ConstraintConfig.swift */,
+				33C5D8083118E8B55A198F6743E33D03 /* ConstraintConstantTarget.swift */,
+				C784C80576E7F8ED3DCD974A9A0EFAAD /* ConstraintDescription.swift */,
+				D2E4DAC6C88BDA405F067591625F81C9 /* ConstraintDSL.swift */,
+				0E540B6555AF3E0AD96CEB7B1E4D428F /* ConstraintInsets.swift */,
+				07E67DBDDD9E6A6E9821DD3C128EBBC3 /* ConstraintInsetTarget.swift */,
+				F952BAB3AD7A560AE9B9F1C304D6AABD /* ConstraintItem.swift */,
+				59D6B2A4D85AB1525AEDF442FA50C186 /* ConstraintLayoutGuide.swift */,
+				1507565B2B53E1DD0D43F14E7EA98174 /* ConstraintLayoutGuide+Extensions.swift */,
+				C305D2C1BE39E8443A18FF1C793F3F82 /* ConstraintLayoutGuideDSL.swift */,
+				99B031E487CE60E0FFAC1C3FA5404ABC /* ConstraintLayoutSupport.swift */,
+				76E1F029F59EE8A9E7CA3B67AE37D2D5 /* ConstraintLayoutSupportDSL.swift */,
+				A6E5AA11DC53B26CC280C7C5E37B8CEF /* ConstraintMaker.swift */,
+				E7FAE641AFD8B477D02BD7C2F2B62B52 /* ConstraintMakerEditable.swift */,
+				4A3CB74D00BD6BBEB86ED53AF17DC74A /* ConstraintMakerExtendable.swift */,
+				B8FEB8B4F04318A8C1DA9336348CAD27 /* ConstraintMakerFinalizable.swift */,
+				BCEB788EB94EC465102429967EF58791 /* ConstraintMakerPriortizable.swift */,
+				52FB51CA03C5F54BF753A75AD7BC6AE4 /* ConstraintMakerRelatable.swift */,
+				6640D29E10AF554D93FA7C59EC43BD52 /* ConstraintMultiplierTarget.swift */,
+				3D0FDFA324DDEDA68D5742F6ED2ABFE9 /* ConstraintOffsetTarget.swift */,
+				08CEE38E17534CBFE7842A0A860668E1 /* ConstraintPriority.swift */,
+				BFACBDB58B97E1B72EBF6C3E3ADCF598 /* ConstraintPriorityTarget.swift */,
+				55BF3A9716CDF221658428C971503FEB /* ConstraintRelatableTarget.swift */,
+				62B3B732D8E7C321BBDF078F3E9C5DC3 /* ConstraintRelation.swift */,
+				7C805128CD0703018F349718346A69A7 /* ConstraintView.swift */,
+				EF5D161662E276F4ACE4854BEC6EEFDE /* ConstraintView+Extensions.swift */,
+				790391EFB8C1188AB56914AEF0DA104E /* ConstraintViewDSL.swift */,
+				4A4596BCD8AA930BAFDECBDD474F0D83 /* Debugging.swift */,
+				E11C4F6BE2C45FBC5AC1FDC60DF5D5AC /* LayoutConstraint.swift */,
+				AC918A8DB4A339168BE76EA509C96EFD /* LayoutConstraintItem.swift */,
+				7298CC818ED2BDB5CF11CA873726B20A /* Typealiases.swift */,
+				A90998F4AB473A9B3D6C657218F39ABE /* UILayoutSupport+Extensions.swift */,
+				F70B9F01112208232B61805299DF5F7F /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		1FA468C958CC85DD63979E2766F90C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A5DD847FBE1EC89A8963707CFE6C09 /* Pods_RZFoldLabelSwift.framework */,
+				6E80B4E49BE1CE3EB50F0EE52A078068 /* RZColorfulSwift.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24900EA3980EA519BD975E609822A97E /* RZColorfulSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AB1B3F62240E1CA7C4F8F542253390A8 /* NSAttributedStringRZColorful.swift */,
+				D207DC308D21EA1B29A7175D3F11A12C /* RZColorful.swift */,
+				FC6DD8CD32464CA7502817F6104AA2F0 /* RZColorfulConferrer.swift */,
+				5724407B26E3BFE4AD7CD51A8B89FDFD /* RZHtmlAttribute.swift */,
+				87720C23A6C3D4976B6877AB7974598F /* RZImageAttribute.swift */,
+				6A14AE4D49214722F5D4BF387380F60C /* RZImageUrlAttribute.swift */,
+				1F242022D31E0568A7FDE4B4FF5C4B70 /* RZParagraphStyle.swift */,
+				1B43647D2E096E116F03A9A7D8A08DFA /* RZShadowStyle.swift */,
+				3068EAAF375CB109197562DA02F41EF6 /* RZTapActionHelper.swift */,
+				DEA0900A8CD7F8C0BC57D9E577542768 /* RZTextAttribute.swift */,
+				0150D7B93D82E23C17BAFF4F1EA5EE2E /* UILabelRZColorful.swift */,
+				02A962CF1CF2D11722563E85D019E2C8 /* UITextFieldRZColorful.swift */,
+				E9F2EE8676F101DA1EE13CC3871E6C71 /* UITextViewRZColorful.swift */,
+				8A75292BC485E974A33B0D4A83854293 /* Support Files */,
+			);
+			name = RZColorfulSwift;
+			path = RZColorfulSwift;
+			sourceTree = "<group>";
+		};
+		36B3EC45E447BD38AF29642660822D65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C8FC89A40FE4FE756D7253BD73A43A /* Pods-RZFoldLabelSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		645464AED194C47F98F85692051E494E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24900EA3980EA519BD975E609822A97E /* RZColorfulSwift */,
+				13B447A6207B8BDF6366D0EFA7069630 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64C8FC89A40FE4FE756D7253BD73A43A /* Pods-RZFoldLabelSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8A7204D75119ABF9D707F42D5CA25ABD /* Pods-RZFoldLabelSwift.modulemap */,
+				0278EBF5A665766C1E8D80AD04853DFB /* Pods-RZFoldLabelSwift-acknowledgements.markdown */,
+				15862FD89C2FA9EDADAE4E98933B6EA2 /* Pods-RZFoldLabelSwift-acknowledgements.plist */,
+				AD237232E6DA5DB8DF6FA57817277EAE /* Pods-RZFoldLabelSwift-dummy.m */,
+				83C368DE6F3D6EF23AFDFE23AF41C02F /* Pods-RZFoldLabelSwift-frameworks.sh */,
+				AD2EFF9D269D16F5915FACC2C195C854 /* Pods-RZFoldLabelSwift-Info.plist */,
+				8FCEB2D123F9D6F5C5CC8040B7646AD4 /* Pods-RZFoldLabelSwift-umbrella.h */,
+				84FA68E91B256274A384BC85D18BC1EF /* Pods-RZFoldLabelSwift.debug.xcconfig */,
+				426A239D4A53ED82A5E2A1ECD405CE33 /* Pods-RZFoldLabelSwift.release.xcconfig */,
+			);
+			name = "Pods-RZFoldLabelSwift";
+			path = "Target Support Files/Pods-RZFoldLabelSwift";
+			sourceTree = "<group>";
+		};
+		8A75292BC485E974A33B0D4A83854293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0D66D7111CDD880A5899DEA56ADA0E /* RZColorfulSwift.modulemap */,
+				654E1BAF61D24D39B46259EEA120DFDB /* RZColorfulSwift-dummy.m */,
+				AE6890EB8833E8CCC5C6C952CD5DB4D0 /* RZColorfulSwift-Info.plist */,
+				0B2C525B018E966C7858A450BE33B6AE /* RZColorfulSwift-prefix.pch */,
+				196DB8D9A665104C55BD801318DA10B0 /* RZColorfulSwift-umbrella.h */,
+				F019AB95B54E7945FE5AAD397C08AEE6 /* RZColorfulSwift.debug.xcconfig */,
+				F4D5E1FA06A0004D162FB3C451963B86 /* RZColorfulSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RZColorfulSwift";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				645464AED194C47F98F85692051E494E /* Pods */,
+				1FA468C958CC85DD63979E2766F90C77 /* Products */,
+				36B3EC45E447BD38AF29642660822D65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70B9F01112208232B61805299DF5F7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF23DFBE7BFDD0A29653F5A2125A0D7 /* SnapKit.modulemap */,
+				79E1CBACE525112BDEAAFE5E8809FB31 /* SnapKit-dummy.m */,
+				E835965DA3DC5DDF9043A221AB6DE092 /* SnapKit-Info.plist */,
+				2A87A4A605057E3641DFB6C7B9C60E08 /* SnapKit-prefix.pch */,
+				07180A800BFDFA6C737DB560D80C4FE2 /* SnapKit-umbrella.h */,
+				B56209C17842CE0E3EE59F3017FB2BBD /* SnapKit.debug.xcconfig */,
+				3BCEA90978813EEB88F39FC9874E97D1 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36DDD3F658A2B775F8B39BBFA6561635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639F18EA5B20B5B6666A068B49C143E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75670C5B51B14441FB4F9F266E439EB8 /* RZColorfulSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715231A2FA6093BE0A0125EE35FEA97B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB29EC59B4BFDB908670B420A566010A /* Pods-RZFoldLabelSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				36DDD3F658A2B775F8B39BBFA6561635 /* Headers */,
+				948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */,
+				73A173863657894A01CB54BA862DDBBA /* Frameworks */,
+				1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73EAFAD08F6008E856D3E549291177D8 /* Pods-RZFoldLabelSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2061F3AE03F06FAFC36430DC0FD6A4 /* Build configuration list for PBXNativeTarget "Pods-RZFoldLabelSwift" */;
+			buildPhases = (
+				715231A2FA6093BE0A0125EE35FEA97B /* Headers */,
+				33D64D7FEF3D5D52EC59D13D3E218BF3 /* Sources */,
+				AE115A42BD9472525F6E1962957E4F61 /* Frameworks */,
+				FDD02E18C947B7443A9C37A475165289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2087D684E07E40575A16458B38BE03 /* PBXTargetDependency */,
+				1141BC5FB92024C1E209873593C0DCB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-RZFoldLabelSwift";
+			productName = "Pods-RZFoldLabelSwift";
+			productReference = 88A5DD847FBE1EC89A8963707CFE6C09 /* Pods_RZFoldLabelSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87C6E9B7582B17D114306D26755D8FFA /* RZColorfulSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D805DFD6C93201348F6C92B5D650FD /* Build configuration list for PBXNativeTarget "RZColorfulSwift" */;
+			buildPhases = (
+				639F18EA5B20B5B6666A068B49C143E0 /* Headers */,
+				382AED09327646D1583E820677E03D25 /* Sources */,
+				F8F61B42A1441BECCC7C68C7D808DD51 /* Frameworks */,
+				27ED0BB6398686961D9206A21D6CF15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZColorfulSwift;
+			productName = RZColorfulSwift;
+			productReference = 6E80B4E49BE1CE3EB50F0EE52A078068 /* RZColorfulSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FA468C958CC85DD63979E2766F90C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EAFAD08F6008E856D3E549291177D8 /* Pods-RZFoldLabelSwift */,
+				87C6E9B7582B17D114306D26755D8FFA /* RZColorfulSwift */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ED0BB6398686961D9206A21D6CF15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD02E18C947B7443A9C37A475165289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D64D7FEF3D5D52EC59D13D3E218BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D0642AC8E9F98BA4536C2FB15CD396 /* Pods-RZFoldLabelSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		382AED09327646D1583E820677E03D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499C4FEA3ADD10AF1ADC0BC0C0EC943B /* NSAttributedStringRZColorful.swift in Sources */,
+				C56301C725FAB996414B1DA241191229 /* RZColorful.swift in Sources */,
+				87B06CAB51E90EF83A0A217F2ACFAC85 /* RZColorfulConferrer.swift in Sources */,
+				30D50A9503797E0E8054AD92144E48E2 /* RZColorfulSwift-dummy.m in Sources */,
+				F199879681B48BFEF07173B2292AA1EB /* RZHtmlAttribute.swift in Sources */,
+				2829EB1218FD47561BDC8AA5F45D4277 /* RZImageAttribute.swift in Sources */,
+				E1AAC889D8D253EF20517814AD68A510 /* RZImageUrlAttribute.swift in Sources */,
+				8791B441FA36A4F3B3199BCDBF0C1836 /* RZParagraphStyle.swift in Sources */,
+				53E06724A89556F80B0D222B558DDAD2 /* RZShadowStyle.swift in Sources */,
+				069FB55843E04647F9E648392783A914 /* RZTapActionHelper.swift in Sources */,
+				68987B626604555F22870560989D4BD8 /* RZTextAttribute.swift in Sources */,
+				C9DA864E9B04E648A58768396C5FC960 /* UILabelRZColorful.swift in Sources */,
+				8838BFCB417AAE61479AA78774151B24 /* UITextFieldRZColorful.swift in Sources */,
+				CE79339E5D178F5BF97666E52BB98E2E /* UITextViewRZColorful.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */,
+				A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */,
+				A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */,
+				9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */,
+				9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */,
+				6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */,
+				54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */,
+				F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */,
+				CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */,
+				DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */,
+				276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */,
+				F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */,
+				4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */,
+				FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */,
+				0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */,
+				8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */,
+				35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */,
+				A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */,
+				72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */,
+				A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */,
+				14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */,
+				E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */,
+				C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */,
+				77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */,
+				5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */,
+				DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */,
+				9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */,
+				BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */,
+				7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */,
+				5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */,
+				0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */,
+				98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2087D684E07E40575A16458B38BE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RZColorfulSwift;
+			target = 87C6E9B7582B17D114306D26755D8FFA /* RZColorfulSwift */;
+			targetProxy = 8B9C8AD9DA8B2007E3078C73558545ED /* PBXContainerItemProxy */;
+		};
+		1141BC5FB92024C1E209873593C0DCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 60C991F8AFBF8ECDC30DD6E88C06AE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F9E4204C0A1F1D5405D571511B80F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56209C17842CE0E3EE59F3017FB2BBD /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		517BF8784E11039E7CC8E55D51E24779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F019AB95B54E7945FE5AAD397C08AEE6 /* RZColorfulSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RZColorfulSwift/RZColorfulSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RZColorfulSwift/RZColorfulSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RZColorfulSwift/RZColorfulSwift.modulemap";
+				PRODUCT_MODULE_NAME = RZColorfulSwift;
+				PRODUCT_NAME = RZColorfulSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BB0D6DBA03E9827C1D018E0BAA95A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426A239D4A53ED82A5E2A1ECD405CE33 /* Pods-RZFoldLabelSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93C673822ACAC0A017C4533714C9830E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D5E1FA06A0004D162FB3C451963B86 /* RZColorfulSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RZColorfulSwift/RZColorfulSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RZColorfulSwift/RZColorfulSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RZColorfulSwift/RZColorfulSwift.modulemap";
+				PRODUCT_MODULE_NAME = RZColorfulSwift;
+				PRODUCT_NAME = RZColorfulSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA9FA41BC86BF49888AB63FEFD868812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCEA90978813EEB88F39FC9874E97D1 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2931296CD939CE79105EEE0C0D21B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FA68E91B256274A384BC85D18BC1EF /* Pods-RZFoldLabelSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9E4204C0A1F1D5405D571511B80F7E /* Debug */,
+				CA9FA41BC86BF49888AB63FEFD868812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2061F3AE03F06FAFC36430DC0FD6A4 /* Build configuration list for PBXNativeTarget "Pods-RZFoldLabelSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2931296CD939CE79105EEE0C0D21B15 /* Debug */,
+				6BB0D6DBA03E9827C1D018E0BAA95A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D805DFD6C93201348F6C92B5D650FD /* Build configuration list for PBXNativeTarget "RZColorfulSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517BF8784E11039E7CC8E55D51E24779 /* Debug */,
+				93C673822ACAC0A017C4533714C9830E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

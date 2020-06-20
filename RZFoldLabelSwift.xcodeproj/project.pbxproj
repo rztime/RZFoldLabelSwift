@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B024FC8C3E5BBB46D6FDE8D /* Pods_RZFoldLabelSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7485645ACF9870E16E42ADFC /* Pods_RZFoldLabelSwift.framework */; };
 		B2775B6C249DEFF8000EA317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2775B6B249DEFF8000EA317 /* AppDelegate.swift */; };
 		B2775B6E249DEFF8000EA317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2775B6D249DEFF8000EA317 /* SceneDelegate.swift */; };
 		B2775B70249DEFF8000EA317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2775B6F249DEFF8000EA317 /* ViewController.swift */; };
 		B2775B73249DEFF8000EA317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2775B71249DEFF8000EA317 /* Main.storyboard */; };
 		B2775B75249DEFFB000EA317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2775B74249DEFFB000EA317 /* Assets.xcassets */; };
 		B2775B78249DEFFB000EA317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2775B76249DEFFB000EA317 /* LaunchScreen.storyboard */; };
+		B2775B81249DF08F000EA317 /* RZFoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2775B80249DF08F000EA317 /* RZFoldLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		710906E48015D51A8EF0A634 /* Pods-RZFoldLabelSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFoldLabelSwift.release.xcconfig"; path = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7485645ACF9870E16E42ADFC /* Pods_RZFoldLabelSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZFoldLabelSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2775B68249DEFF8000EA317 /* RZFoldLabelSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZFoldLabelSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2775B6B249DEFF8000EA317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2775B6D249DEFF8000EA317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B2775B74249DEFFB000EA317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2775B77249DEFFB000EA317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2775B79249DEFFB000EA317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2775B80249DF08F000EA317 /* RZFoldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZFoldLabel.swift; sourceTree = "<group>"; };
+		E4321AC772421071792EF60D /* Pods-RZFoldLabelSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFoldLabelSwift.debug.xcconfig"; path = "Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B024FC8C3E5BBB46D6FDE8D /* Pods_RZFoldLabelSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		406592F5A17ACC3C12C21B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7485645ACF9870E16E42ADFC /* Pods_RZFoldLabelSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF0A04D55BD6946E73DD7F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4321AC772421071792EF60D /* Pods-RZFoldLabelSwift.debug.xcconfig */,
+				710906E48015D51A8EF0A634 /* Pods-RZFoldLabelSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B2775B5F249DEFF8000EA317 = {
 			isa = PBXGroup;
 			children = (
 				B2775B6A249DEFF8000EA317 /* RZFoldLabelSwift */,
 				B2775B69249DEFF8000EA317 /* Products */,
+				AEF0A04D55BD6946E73DD7F6 /* Pods */,
+				406592F5A17ACC3C12C21B17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		B2775B6A249DEFF8000EA317 /* RZFoldLabelSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B2775B7F249DF07D000EA317 /* core */,
 				B2775B6B249DEFF8000EA317 /* AppDelegate.swift */,
 				B2775B6D249DEFF8000EA317 /* SceneDelegate.swift */,
 				B2775B6F249DEFF8000EA317 /* ViewController.swift */,
@@ -67,6 +94,14 @@
 			path = RZFoldLabelSwift;
 			sourceTree = "<group>";
 		};
+		B2775B7F249DF07D000EA317 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B2775B80249DF08F000EA317 /* RZFoldLabel.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2775B7C249DEFFB000EA317 /* Build configuration list for PBXNativeTarget "RZFoldLabelSwift" */;
 			buildPhases = (
+				FFDFA4AC5A99961FFEA2CDBD /* [CP] Check Pods Manifest.lock */,
 				B2775B64249DEFF8000EA317 /* Sources */,
 				B2775B65249DEFF8000EA317 /* Frameworks */,
 				B2775B66249DEFF8000EA317 /* Resources */,
+				0063F5290B13328CD42706B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +170,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0063F5290B13328CD42706B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RZFoldLabelSwift/Pods-RZFoldLabelSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDFA4AC5A99961FFEA2CDBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RZFoldLabelSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2775B64249DEFF8000EA317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B2775B70249DEFF8000EA317 /* ViewController.swift in Sources */,
+				B2775B81249DF08F000EA317 /* RZFoldLabel.swift in Sources */,
 				B2775B6C249DEFF8000EA317 /* AppDelegate.swift in Sources */,
 				B2775B6E249DEFF8000EA317 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +362,7 @@
 		};
 		B2775B7D249DEFFB000EA317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4321AC772421071792EF60D /* Pods-RZFoldLabelSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +380,7 @@
 		};
 		B2775B7E249DEFFB000EA317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710906E48015D51A8EF0A634 /* Pods-RZFoldLabelSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
